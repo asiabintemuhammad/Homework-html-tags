@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML elements practice</title>
+	<style>
+.myDiv {
+  border: 5px outset seagreen;
+  background-color: lightblue;    
+  text-align: center;
+}
+body
+  {
+    background-color: beige;
+  }
+
+</style>
+
+</head>
+<body>
+	<h1>Anchor Tag</h1>
+	<a href="https://www.facebook.com/AsiaBinteMuhammad">My Facebook Profile</a>
+	<h1>Abbriviation Tag</h1>
+	<p>The <abbr title="United Nations Children's Fund">UNICEF</abbr> was founded in 1953.</p>
+	<h1> Address Tag</h1>
+	<address>
+		Written by <a href="mailto:asiabintemuhammad.a@gmail.com">Asia Binte Muhammad</a>.<br> 
+		Visit us at:<br>
+		asiabinte.com<br>
+		Savar,Dhaka<br>
+		Bangladesh
+	</address>
+	<h1>Area Tag</h1>
+	<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+			<img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" width="626" height="417">
+					<map name="workmap">
+  						<!-- Area for the computer (rectangle shape) -->
+  						<area shape="rect" coords="176,82,492,341" alt="Computer" href="img/computer.jpg">
+
+  						<!-- Area for the coffee cup (circle shape) -->
+  						<area shape="circle" coords="135,310,69" alt="Coffee Cup" href="img/coffee.jpg">
+
+  						<!-- Area for the phone (rectangle shape) -->
+  						<area shape="rect" coords="492,168,554,341" alt="Phone" href="img/phone.jpg">
+					</map>
+	<h1>Article Tag</h1>
+	<article>
+  <h2>Dark chocolate</h2>
+  <p><b>Dark chocolate is a rich, intense chocolate with a high percentage of cocoa solids (typically 50-90%), cocoa butter, and sugar, containing little to no milk!</b></p>
+</article>
+
+<article>
+  <h2>White chocolate</h2>
+  <p><b>a pale, creamy confection made from sugar, milk solids, and cocoa butter, but without the brown cocoa solids found in milk or dark chocolate, giving it a sweet, vanilla-like flavor and ivory color!</b></p>
+</article>
+	<h1>Aside Tag</h1>
+		<p>I read the Quran this summer. It strengthed my faith and connection with Allah.Provided me with life guidance. Brought me inner peace, emotional healing, stability and relifed my stress.Improved my memory and focus.</p>
+
+			<aside>
+				<h4>Epcot Center</h4>
+				<p>The Quran is the holy scripture of Islam, believed by Muslims to be the literal word of Allah revealed to the Prophet Muhammad (s) over a period of 23 years. It is written in Classical Arabic and serves as the ultimate guide for all aspects of a Muslim's life, containing religious, social, and moral guidance. The text is divided into 114 chapters, called surah, and contains 6,348 verses (ayat). </p>
+			</aside>
+<h1>Audio Tag</h1>
+		<audio controls>
+  	<source src="weee.mp3" type="audio/mpeg">
+		</audio>
+		<h1> Bold Tag</h1>
+		<p>This is normal text(Asia) - <b>and this is bold text(Asia)</b>.</p>
+<h1>The bdi Tag</h1>
+	<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+		<ul>
+ 			<li>User <bdi>Asia</bdi>: 60 points</li>
+ 			<li>User <bdi>Khadiza</bdi>: 80 points</li>
+ 			<li>User <bdi>محَمَّد </bdi>: 90 points</li>
+		</ul>
+<h1>The bdo Tag</h1>
+		<p>Asia Binte Muhammad</p>  
+		<p><bdo dir="rtl">Asia Binte Muhammad</bdo></p>  
+<h1>The blockquote Tag</h1>
+
+		<p>Here is a quote from freepil website:</p>
+
+			<blockquote cite="https://www.freepik.com/free-photos-vectors/quote">
+				If you believe in yourself, anything is possible.
+			</blockquote>
+
+<h1>The Button Tag</h1>
+
+	<button type="button" onclick="alert('Hi!')">Click Me!</button>
+<h1> The Canvas Tag</h1>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid black"></canvas>
+
+<h1>The Caption Tag</h1>
+
+<table border='1' cellspacing='0'>
+  <caption><b>Exam Marks</b></caption>
+  <tr>
+    <th col span="2" >Marks</th>
+    <th>Subject</th>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Science</td>
+    <td>80</td>
+  </tr>
+</table>
+<h1>The cite Tag</h1>
+
+<img src="img/monalisa.jpg" width="300" alt="Monalisa">
+<p><cite>The Monalisa</cite> by Leonardo da Vinci between 1503-1519.</p>
+<h1>The code Tag</h1>
+
+<p>The HTML <code> (a) </code> defines a hyperlink, which is used to link one web resource to another.</p>
+
+<p>The CSS <code>color</code> property defines the color of an element.</p>
+<h1>The col and colgroup Tag</h1>
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color:lightskyblue;">
+    <col style="background-color:lightblue">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+
+<h1>The Data Tag</h1>
+
+<p>The following example displays product names but also associates each name with a product number:</p>
+
+<ul>
+  <li><data value="21060">Dark Chocolate</data></li>
+  <li><data value="21061">Milk Chocolate</data></li>
+  <li><data value="21062">White Chocolate</data></li>
+</ul>
+<h1>The datalist Tag</h1>
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+<h1>The dl, dd, and dt tags</h1>
+
+<p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>Black chololate</dt>
+  <dd>Black hard snack</dd>
+  <dt>White chocolate</dt>
+  <dd>White  hard snack</dd>
+</dl>
+<h1>The del and The Ins tags</h1>
+
+<p>I like <del>sweet</del> <ins>savory</ins> food!</p>
+<h1>The details Tag</h1>
+
+<details>
+  <summary>Quran</summary>
+  <p>The Quran is the holy scripture of Islam, believed by Muslims to be the literal word of Allah revealed to the Prophet Muhammad (s) over a period of 23 years. It is written in Classical Arabic and serves as the ultimate guide for all aspects of a Muslim's life, containing religious, social, and moral guidance. The text is divided into 114 chapters, called surah, and contains 6,348 verses (ayat).</p>
+</details>
+<h1>The dfn Tag</h1>
+
+<p><dfn>WHO</dfn>  is the United Nations agency that connects nations, partners and people to promote health, keep the world safe and serve the vulnerable.</p>
+
+<h1>The dialog Tag</h1>
+
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+<dialog open>This is an open dummy word dialog window</dialog>
+<p>Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet</p>
+<h1>The div Tag</h1>
+
+<div class="myDiv">
+  <h2>Lorem ipsum dolor sit amet</h2>
+  <p>Lorem ipsum dolor sit amett.</p>
+</div>
+
+<p>Lorem ipsum dolor sit amet.</p>
+<h1>The em Tag</h1>
+
+<p>You <em>have</em>to Die!</p>
+
+<p>We <em>cannot</em> live if you dont die.</p>
+<h1>The embed Tag</h1>
+
+<embed type="text/html" src="country-capital.html"  width="500" height="200">
+<embed type="image/jpg" src="img/forest.jpg" alt="forest">
+<h1>The fieldset Tag</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>	
+
+<h1>The figure and figcaption tags</h1>
+
+<figure>
+  <img src="img/forest2.jpg" alt="forest" style="width:500px">
+  <figcaption><b>This is a pine forest</b></figcaption>
+</figure>
+
+<h1>The footer Tag</h1>
+
+<footer>
+  <p>Designer:Asia Binte Muhammad<br>
+  <a href="mailto:asiabintemuhammad.a@.com">asiabintemuhammad.a@gmail.com</a></p>
+  <h1>The Form and Input Tags</h1>
+</footer>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<h1>The Heading Tags</h1>
+		<h1>Hello World!</h1>
+		<h2>Hello World!</h2>
+		<h3>Hello World!</h3>
+		<h4>Hello World!</h4>
+		<h5>Hello World!</h5>
+		<h6>Hello World!</h6>
+<h1> The html Tag</h1>
+    <p><big>Already shown above</big></p>
+<h1>The i Tags</h1>
+    <p>My name is <i>Asia Binte Muhammad</i></p>
+
+<h1>The iframe Tags</h1>
+
+<iframe src="https://shikhbeshobai.com/" title="ShikhbeShobai – Everyone will learn.">
+</iframe>
+<h1>The img Tags</h1>
+
+<img src="img/forest3.jpg" alt="forest">
+
+			
+</body>
+</html>
